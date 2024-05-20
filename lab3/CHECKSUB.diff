@@ -1,0 +1,29 @@
+conflicting.c ...
+1c1,7
+< ./CHECKSUB.sh: line 43: 1363357 Segmentation fault      (core dumped) ../phase3/scc
+---
+> line 5: conflicting types for 'v'
+> line 9: conflicting types for 'a'
+> line 11: conflicting types for 'x'
+> line 14: conflicting types for 'g'
+> line 22: conflicting types for 'f'
+> line 25: conflicting types for 'h'
+> line 32: conflicting types for 'vv'
+nesting.c ...
+1d0
+< ./CHECKSUB.sh: line 43: 1363366 Segmentation fault      (core dumped) ../phase3/scc
+redeclared.c ...
+1c1,3
+< ./CHECKSUB.sh: line 43: 1363378 Segmentation fault      (core dumped) ../phase3/scc
+---
+> line 3: redeclaration of 'z'
+> line 5: redeclaration of 'x'
+> line 21: redefinition of 'g'
+undeclared.c ...
+1c1,4
+< ./CHECKSUB.sh: line 43: 1363389 Segmentation fault      (core dumped) ../phase3/scc
+---
+> line 3: 'y' undeclared
+> line 13: 'p' undeclared
+> line 16: 'w' undeclared
+> line 26: 'w' undeclared

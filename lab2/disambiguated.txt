@@ -1,0 +1,55 @@
+expression
+  : expression || and-expression
+  | and-expression
+
+and-expression
+  : and-expression && equality-expression
+  | equality-expression
+
+equality-expression
+  : equality-expression == relational-expression
+  | equality-expression != relational-expression
+  | relational-expression
+
+relational-expression
+  : relational-expression < add-expression
+  | relational-expression > add-expression
+  | relational-expression <= add-expression
+  | relational-expression >= add-expression
+  | add-expression
+
+add-expression
+  : add-expression + multiply-expression
+  | add-expression - multiply-expression
+  | multiply-expression
+
+multiply-expression
+  : multiply-expression * prefix-expression
+  | multiply-expression / prefix-expression
+  | multiply-expression % prefix-expression
+  | prefix-expression
+
+prefix-expression
+  : ! prefix-expression
+  | - prefix-expression
+  | & prefix-expression
+  | * prefix-expression
+  | SIZEOF prefix-expression
+  | SIZEOF ( specifier pointers )
+  | ( specifier pointers ) prefix-expression
+  | postfix-expression
+
+postfix-expression
+  : postfix-expression [ expression ]
+  | primary-expression
+
+primary-expression
+  : ID ( expression-list )
+  | ID ( )
+  | ID
+  | INTEGER
+  | REAL
+  | CHARACTER
+  | STRING
+  | ( expression )
+

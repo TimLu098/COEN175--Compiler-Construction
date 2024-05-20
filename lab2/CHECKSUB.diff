@@ -1,0 +1,38 @@
+array.c ...
+fib.c ...
+0a1,8
+> eql
+> eql
+> or
+> sub
+> sub
+> add
+> addr
+> 23
+hello.c ...
+0a1
+> 8
+malloc.c ...
+0a1,4
+> sizeof
+> mul
+> cast
+> 12
+params.c ...
+0a1,6
+> neg
+> not
+> mul
+> add
+> neq
+> 8
+real.c ...
+sum.c ...
+0a1,7
+> leq
+> add
+> add
+> add
+> mul
+> div
+> 17
