@@ -1,0 +1,22 @@
+    if (isNumeric()) {
+        if(_specifier == INT)
+            return 4;
+        else if(_specifier == LONG)
+            return 8;
+        else if(_specifier == CHAR)
+            return 1;
+    }
+
+    else if(isArray()) {
+        if(_specifier == INT)
+            return 4 * length();
+        else if(_specifier == LONG)
+            return 8 * length();
+        else if(_specifier == CHAR)
+            return 1 * length();
+    }
+
+    else if(isPointer())
+        return 8;
+
+    return 0;
