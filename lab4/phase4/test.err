@@ -1,0 +1,10 @@
+s: char *
+printf: int()
+x: int
+y: int *
+foo: int()
+a: int[10]
+i: int
+p: int *
+d: double
+s: double *

@@ -1,0 +1,3 @@
+line 4: conflicting types for 'g'
+line 6: conflicting types for 'a'
+line 10: conflicting types for 'f'

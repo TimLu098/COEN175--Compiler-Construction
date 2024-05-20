@@ -1,0 +1,4 @@
+line 4: conflicting types for 'a'
+line 6: conflicting types for 'b'
+line 8: conflicting types for 'c'
+line 10: conflicting types for 'a'

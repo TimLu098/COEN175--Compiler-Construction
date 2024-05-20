@@ -1,0 +1,48 @@
+expr.c ...
+3d2
+< line 11: invalid operands to binary =
+4a4,5
+> line 21: invalid operand in cast expression
+> line 23: called object is not a function
+6,8c7,11
+< line 29: invalid operands to binary =
+< line 31: invalid operands to binary ==
+< line 31: syntax error at ')'
+---
+> line 31: invalid operand in cast expression
+> line 32: invalid operands to binary <
+> line 34: lvalue required in expression
+> line 37: invalid arguments to called function
+> line 40: invalid operands to binary =
+mixed.c ...
+1c1,7
+< line 27: syntax error at ')'
+---
+> line 26: invalid operands to binary -
+> line 28: invalid operands to binary +
+> line 30: invalid operands to binary -
+> line 31: invalid operands to binary -
+> line 35: invalid operand in cast expression
+> line 39: invalid operand to unary -
+> line 51: invalid operand in sizeof expression
+stmt.c ...
+tree.c ...
+1,15d0
+< line 17: invalid operands to binary *
+< line 17: invalid operands to binary =
+< line 22: invalid operands to binary =
+< line 24: invalid operands to binary =
+< line 35: invalid return type
+< line 38: invalid return type
+< line 77: invalid operands to binary =
+< line 78: invalid operands to binary =
+< line 79: invalid operands to binary =
+< line 80: invalid operands to binary =
+< line 81: invalid operands to binary =
+< line 82: invalid operands to binary =
+< line 83: invalid operands to binary =
+< line 84: invalid operands to binary =
+< line 85: invalid operands to binary =
+trig.c ...
+1d0
+< line 62: syntax error at ')'
