@@ -5,7 +5,7 @@
 - Top-down and bottom-up parsing and implementation of top-down parsers.
 - An overview of symbol table arrangement, run-time memory allocation, intermediate forms, optimization, and code generation.
 
-# Labortary: 
+## Labortary: 
 - Lab1: Lexical Analysis
 - Lab2: Syntax Analysis
 - Lab3: Symbol Table Construction
